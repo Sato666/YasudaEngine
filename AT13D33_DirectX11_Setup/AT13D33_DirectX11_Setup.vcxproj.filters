@@ -1,0 +1,659 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\App">
+      <UniqueIdentifier>{c289bfe6-ccf2-4ae2-89a6-7d3d48b1784e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{0d54e8d4-92e2-477f-9f81-764655ea3263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Manager">
+      <UniqueIdentifier>{98f6a2f5-c006-4c47-ab2e-ff2ded0d24c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Games">
+      <UniqueIdentifier>{c433e634-b7c4-42f7-b20e-c4ea05374067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_Games">
+      <UniqueIdentifier>{1236f5b9-4418-49fc-93e3-93d27a328d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_App">
+      <UniqueIdentifier>{22b07117-02b8-4e05-b254-3ee11a8d87fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_System">
+      <UniqueIdentifier>{153c30ea-ce83-4b3e-bded-2d046a098112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_System\fps">
+      <UniqueIdentifier>{90f06b6b-de0f-4c9d-8480-dcb6e0ce053c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Games\Camera">
+      <UniqueIdentifier>{2cdc50c4-ecb1-46bb-8dcb-f4d698f9572e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_Component">
+      <UniqueIdentifier>{c55d5d9f-6466-465d-836f-34998baf5d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Component">
+      <UniqueIdentifier>{d6b367a7-1ba6-440b-b904-ebca8a5b1ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_Games\H_Camera">
+      <UniqueIdentifier>{de021db6-446f-436e-8184-ebb09ca7c63a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_Games\H_Field">
+      <UniqueIdentifier>{39ec247f-45fb-4419-9d0f-454fd05bf9aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_Scene">
+      <UniqueIdentifier>{e32a3a44-1eb2-42a8-b44b-24be46ac5b08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Input">
+      <UniqueIdentifier>{821ff802-a120-4b40-96ad-b14c74e19760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_System\H_Input">
+      <UniqueIdentifier>{e26fffb6-6045-4bab-b7da-691acd93770d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_Component\H_Camera">
+      <UniqueIdentifier>{7132a440-6045-4912-9651-58ce49328cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{6e56dd91-20c3-44ed-8d88-421f60468c37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Games\Fade">
+      <UniqueIdentifier>{a11df331-7d77-4b8a-a8e3-eba68fb98dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Component\Drawing">
+      <UniqueIdentifier>{64359838-6043-4d41-92f4-d073b1602434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Component\Drawing\Shader">
+      <UniqueIdentifier>{5c67003d-100c-4df9-b857-2607bcebbfaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_Component\H_Drawing">
+      <UniqueIdentifier>{3b73c7d3-c81e-4152-ab4a-570ec23714b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_Component\H_Drawing\H_Shader">
+      <UniqueIdentifier>{2e9a3be2-c0f2-458b-8be7-1b98b4d64c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_Component\H_Drawing\H_Model">
+      <UniqueIdentifier>{bff7e396-e791-4f00-98b7-b630522c29ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Component\Drawing\Model">
+      <UniqueIdentifier>{6c284593-38ba-4fc9-8b49-03ff7406913e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Games\Block">
+      <UniqueIdentifier>{7ecf98a8-0214-425f-baed-f29fbf270f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Games\Sky">
+      <UniqueIdentifier>{b49a02c1-0c2b-4d89-87a2-cfd59a18831d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_Games\H_Sky">
+      <UniqueIdentifier>{5e404605-76ef-43f9-9d59-15180fb25f31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_Games\H_Block">
+      <UniqueIdentifier>{092b55f9-b908-44ad-a2da-57776b569799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Component\Camera">
+      <UniqueIdentifier>{0a432341-731a-4459-86fa-2476e333f819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_Games\H_Fade">
+      <UniqueIdentifier>{385cf7ae-e81d-4d4a-b129-9095029bcae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\imgui">
+      <UniqueIdentifier>{75f472eb-ba6d-4aa4-a2ad-3f61054ba80e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_System\H_imgui">
+      <UniqueIdentifier>{3fb211b1-384d-4f93-92e6-34f00ecd6bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Games\Field">
+      <UniqueIdentifier>{837a8eed-080c-4838-bd87-f8623dcd1c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_Manager">
+      <UniqueIdentifier>{615514c6-6799-454e-829c-4e00ccc2296c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Games\Light">
+      <UniqueIdentifier>{6566bf7b-e479-4bb1-add3-1d7115ceb0a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Component\Light">
+      <UniqueIdentifier>{43bc27e2-3b95-4085-97e1-42b1ccd47b9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_Component\H_Light">
+      <UniqueIdentifier>{079c0544-66e6-4dcd-bc5d-2e8e5e801b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_Games\H_Light">
+      <UniqueIdentifier>{22133930-3fa6-4e89-bbbd-8d814c5a8b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\VertexShader">
+      <UniqueIdentifier>{0b4aeb3a-099f-4eaf-b063-b07bd365db65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\PixelShader">
+      <UniqueIdentifier>{9c756924-5b0c-403b-9c31-5b63794d9dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_Component\H_Drawing\H_AsiimpModel">
+      <UniqueIdentifier>{3a8fd2a6-8465-4ee6-bfca-cf4d981f97ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Component\Drawing\AsiimpModel">
+      <UniqueIdentifier>{a12c2263-d648-4a09-b88b-71f588504503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_System\H_Utility">
+      <UniqueIdentifier>{9962250f-8a68-45c9-8d7c-66244b0316c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_Component\H_Audio">
+      <UniqueIdentifier>{63feabf6-5bcb-4d49-bb0c-08b1d2d3da0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Component\Audio">
+      <UniqueIdentifier>{368ea45d-668e-4884-b8f3-b9b25f948d39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\resource">
+      <UniqueIdentifier>{295d7936-bbe5-4ca2-aaad-509fdebd96e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_System\H_Resource">
+      <UniqueIdentifier>{b280c0e6-9acd-4dae-a2f6-5beaf07b8d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Games\Model">
+      <UniqueIdentifier>{81e70c3e-3539-420f-b153-a8daeb5c544a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_Games\H_Model">
+      <UniqueIdentifier>{e61a2d92-07c7-4727-998d-30ea2feb605b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_System\H_Resource\H_Buffer">
+      <UniqueIdentifier>{29621b40-96f8-458e-880f-5bb48cbb4442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_System\H_Resource\H_Material">
+      <UniqueIdentifier>{62320860-74b7-4d8f-a039-f63f156f3d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\SceneMain">
+      <UniqueIdentifier>{49bdd5d8-efcb-4fa4-a0c8-945103e5292b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_Scene\H_SceneMain">
+      <UniqueIdentifier>{0c6f54c0-50cc-486c-acd9-d4f936487c8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Component\ModelSetting">
+      <UniqueIdentifier>{2c95b9a3-8d2e-4775-ae14-310767f74af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_Component\H_ModelSetting">
+      <UniqueIdentifier>{3df708ca-8ea9-4f02-9a34-d27ea5d82625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Utility">
+      <UniqueIdentifier>{f180a266-76f2-4d76-b12a-aa43abd64d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\PixelShader\Default">
+      <UniqueIdentifier>{8b12f914-ac17-4c44-8596-b0a8625d6215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\PixelShader\ModelAddRenderer">
+      <UniqueIdentifier>{5db70063-1ba5-44b8-988d-474e112b62e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\PixelShader\ModelEffect">
+      <UniqueIdentifier>{f9084e87-1c00-44b4-87ae-fdb3d18bd224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\PixelShader\PostProcessing">
+      <UniqueIdentifier>{d325b58b-dd56-49fe-bfca-ea593055e13c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\VertexShader\Default">
+      <UniqueIdentifier>{cffdd18a-dea1-4dc1-a2ef-04936d2a319a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\VertexShader\ModelAddRenderer">
+      <UniqueIdentifier>{f3f68714-9e5e-4389-86eb-8ef3c5f1c2f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\VertexShader\Sample">
+      <UniqueIdentifier>{c7bbb4e5-f2bc-4397-b9d5-e80c77085f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Component\Drawing\AsiimpModel\NomalModel">
+      <UniqueIdentifier>{6668691a-1af2-4e74-a606-124c1e6962ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Component\Drawing\AsiimpModel\AnimModel">
+      <UniqueIdentifier>{352a7dec-fe1c-41fd-a910-e444df29ff73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_Component\H_Drawing\H_AsiimpModel\H_AnimModel">
+      <UniqueIdentifier>{a8255403-c84a-40ba-b041-7a5803af57fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\H_Component\H_Drawing\H_AsiimpModel\H_NomalModel">
+      <UniqueIdentifier>{2d912274-96a9-482a-b834-a410f3fa24f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>ソース ファイル\System\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>ソース ファイル\System\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>ソース ファイル\System\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>ソース ファイル\System\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>ソース ファイル\System\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>ソース ファイル\System\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>ソース ファイル\App</Filter>
+    </ClCompile>
+    <ClCompile Include="audio.cpp">
+      <Filter>ソース ファイル\Component\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル\Games\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Cylinder.cpp">
+      <Filter>ソース ファイル\Games\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>ソース ファイル\Games\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelRenderer.cpp">
+      <Filter>ソース ファイル\Component\Drawing\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>ソース ファイル\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon3D.cpp">
+      <Filter>ソース ファイル\Component\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderComponent.cpp">
+      <Filter>ソース ファイル\Component\Drawing\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="sky.cpp">
+      <Filter>ソース ファイル\Games\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteComponent.cpp">
+      <Filter>ソース ファイル\Component\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="Transition.cpp">
+      <Filter>ソース ファイル\Games\Fade</Filter>
+    </ClCompile>
+    <ClCompile Include="field.cpp">
+      <Filter>ソース ファイル\Games\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="DXCamera.cpp">
+      <Filter>ソース ファイル\Component\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationModel.cpp">
+      <Filter>ソース ファイル\Component\Drawing\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveLight.cpp">
+      <Filter>ソース ファイル\Games\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>ソース ファイル\Component\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>ソース ファイル\System\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometory.cpp">
+      <Filter>ソース ファイル\System\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshBuffer.cpp">
+      <Filter>ソース ファイル\System\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>ソース ファイル\System\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>ソース ファイル\System\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>ソース ファイル\Games\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>ソース ファイル\Scene\SceneMain</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEdit.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMain.cpp">
+      <Filter>ソース ファイル\Scene\SceneMain</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSetting.cpp">
+      <Filter>ソース ファイル\Component\ModelSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEdit_ImGui.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneDefferedEdit.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite2D.cpp">
+      <Filter>ソース ファイル\Games</Filter>
+    </ClCompile>
+    <ClCompile Include="utftosjisconv.cpp">
+      <Filter>ソース ファイル\System\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>ソース ファイル\System\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11mathutil.cpp">
+      <Filter>ソース ファイル\System\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelMeshLoad.cpp">
+      <Filter>ソース ファイル\Component\Drawing\AsiimpModel\NomalModel</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelMeshRenderer.cpp">
+      <Filter>ソース ファイル\Component\Drawing\AsiimpModel\NomalModel</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimModelMeshLoad.cpp">
+      <Filter>ソース ファイル\Component\Drawing\AsiimpModel\AnimModel</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimModelMeshRenderer.cpp">
+      <Filter>ソース ファイル\Component\Drawing\AsiimpModel\AnimModel</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationData.cpp">
+      <Filter>ソース ファイル\Component\Drawing\AsiimpModel\AnimModel</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimModel.cpp">
+      <Filter>ソース ファイル\Games\Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>ヘッダー ファイル\H_System\H_imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>ヘッダー ファイル\H_System\H_imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>ヘッダー ファイル\H_System\H_imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>ヘッダー ファイル\H_System\H_imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>ヘッダー ファイル\H_System\H_imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>ヘッダー ファイル\H_System\H_imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>ヘッダー ファイル\H_System\H_imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>ヘッダー ファイル\H_System\H_imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>ヘッダー ファイル\H_App</Filter>
+    </ClInclude>
+    <ClInclude Include="audio.h">
+      <Filter>ヘッダー ファイル\H_Component\H_Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>ヘッダー ファイル\H_Games\H_Block</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ヘッダー ファイル\H_Games\H_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="component.h">
+      <Filter>ヘッダー ファイル\H_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylinder.h">
+      <Filter>ヘッダー ファイル\H_Games\H_Block</Filter>
+    </ClInclude>
+    <ClInclude Include="fpscontrol.h">
+      <Filter>ヘッダー ファイル\H_System\fps</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobject.h">
+      <Filter>ヘッダー ファイル\H_Games</Filter>
+    </ClInclude>
+    <ClInclude Include="field.h">
+      <Filter>ヘッダー ファイル\H_Games\H_Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon3D.h">
+      <Filter>ヘッダー ファイル\H_Component\H_Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル\H_System\H_Input</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>ヘッダー ファイル\H_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダー ファイル\H_System</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelRenderer.h">
+      <Filter>ヘッダー ファイル\H_Component\H_Drawing\H_Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderComponent.h">
+      <Filter>ヘッダー ファイル\H_Component\H_Drawing\H_Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="sky.h">
+      <Filter>ヘッダー ファイル\H_Games\H_Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteComponent.h">
+      <Filter>ヘッダー ファイル\H_Component\H_Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Transition.h">
+      <Filter>ヘッダー ファイル\H_Games\H_Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="DXCamera.h">
+      <Filter>ヘッダー ファイル\H_Component\H_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationModel.h">
+      <Filter>ヘッダー ファイル\H_Component\H_Drawing\H_Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>ヘッダー ファイル\H_Component\H_Light</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveLight.h">
+      <Filter>ヘッダー ファイル\H_Games\H_Light</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>ヘッダー ファイル\H_System\H_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="XMFLOAT_Brevity.h">
+      <Filter>ヘッダー ファイル\H_System\H_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="XMFLOAT_Math.h">
+      <Filter>ヘッダー ファイル\H_System\H_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="utftosjisconv.h">
+      <Filter>ヘッダー ファイル\H_System\H_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CMaterial.h">
+      <Filter>ヘッダー ファイル\H_System\H_Resource\H_Material</Filter>
+    </ClInclude>
+    <ClInclude Include="CVertexBuffer.h">
+      <Filter>ヘッダー ファイル\H_System\H_Resource\H_Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="CIndexBuffer.h">
+      <Filter>ヘッダー ファイル\H_System\H_Resource\H_Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneEdit.h">
+      <Filter>ヘッダー ファイル\H_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>ヘッダー ファイル\H_System\H_Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>ヘッダー ファイル\H_System\H_Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometory.h">
+      <Filter>ヘッダー ファイル\H_System\H_Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshBuffer.h">
+      <Filter>ヘッダー ファイル\H_System\H_Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>ヘッダー ファイル\H_System\H_Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>ヘッダー ファイル\H_Games\H_Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.hpp">
+      <Filter>ヘッダー ファイル\H_Scene\H_SceneMain</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMain.h">
+      <Filter>ヘッダー ファイル\H_Scene\H_SceneMain</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSetting.h">
+      <Filter>ヘッダー ファイル\H_Component\H_ModelSetting</Filter>
+    </ClInclude>
+    <ClInclude Include="strconv2.h">
+      <Filter>ヘッダー ファイル\H_System\H_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="FileName.h">
+      <Filter>ヘッダー ファイル\H_System\H_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneDefferedEdit.h">
+      <Filter>ヘッダー ファイル\H_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite2D.h">
+      <Filter>ヘッダー ファイル\H_Games</Filter>
+    </ClInclude>
+    <ClInclude Include="dx11mathutil.h">
+      <Filter>ヘッダー ファイル\H_System\H_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelMeshLoad.h">
+      <Filter>ヘッダー ファイル\H_Component\H_Drawing\H_AsiimpModel\H_NomalModel</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelMeshRenderer.h">
+      <Filter>ヘッダー ファイル\H_Component\H_Drawing\H_AsiimpModel\H_NomalModel</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimModelMeshLoad.h">
+      <Filter>ヘッダー ファイル\H_Component\H_Drawing\H_AsiimpModel\H_AnimModel</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimModelMeshRenderer.h">
+      <Filter>ヘッダー ファイル\H_Component\H_Drawing\H_AsiimpModel\H_AnimModel</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimModel.h">
+      <Filter>ヘッダー ファイル\H_Games\H_Model</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationData.h">
+      <Filter>ヘッダー ファイル\H_Component\H_Drawing\H_AsiimpModel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="PixelShader\PS_TexColor.hlsl">
+      <Filter>リソース ファイル\PixelShader\Default</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\unlitTexturePS.hlsl">
+      <Filter>リソース ファイル\PixelShader\Default</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_Material.hlsl">
+      <Filter>リソース ファイル\PixelShader\Default</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_ModelToon.hlsl">
+      <Filter>リソース ファイル\PixelShader\ModelEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_AlphaDitherOutline.hlsl">
+      <Filter>リソース ファイル\PixelShader\ModelAddRenderer</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_ObjShadow.hlsl">
+      <Filter>リソース ファイル\PixelShader\ModelAddRenderer</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_Outline.hlsl">
+      <Filter>リソース ファイル\PixelShader\ModelAddRenderer</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_Shadow.hlsl">
+      <Filter>リソース ファイル\PixelShader\ModelAddRenderer</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_Edge.hlsl">
+      <Filter>リソース ファイル\PixelShader\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_FXAA.hlsl">
+      <Filter>リソース ファイル\PixelShader\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_GammaCorrection.hlsl">
+      <Filter>リソース ファイル\PixelShader\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_Monochrome.hlsl">
+      <Filter>リソース ファイル\PixelShader\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_Noise.hlsl">
+      <Filter>リソース ファイル\PixelShader\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_Posterization.hlsl">
+      <Filter>リソース ファイル\PixelShader\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_RGBSplit.hlsl">
+      <Filter>リソース ファイル\PixelShader\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_ScanningLine.hlsl">
+      <Filter>リソース ファイル\PixelShader\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_Sepia.hlsl">
+      <Filter>リソース ファイル\PixelShader\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_Vignette.hlsl">
+      <Filter>リソース ファイル\PixelShader\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShader\unlitTextureVS.hlsl">
+      <Filter>リソース ファイル\VertexShader\Default</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShader\VS_Material.hlsl">
+      <Filter>リソース ファイル\VertexShader\Default</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShader\VS_Object.hlsl">
+      <Filter>リソース ファイル\VertexShader\Default</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShader\VS_Sprite.hlsl">
+      <Filter>リソース ファイル\VertexShader\Default</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShader\VS_AlphaDither.hlsl">
+      <Filter>リソース ファイル\VertexShader\ModelAddRenderer</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShader\VS_Outline.hlsl">
+      <Filter>リソース ファイル\VertexShader\ModelAddRenderer</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShader\VS_PostOutline.hlsl">
+      <Filter>リソース ファイル\VertexShader\ModelAddRenderer</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShader\VS_ScreenPosition.hlsl">
+      <Filter>リソース ファイル\VertexShader\ModelAddRenderer</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShader\VS_Shadow.hlsl">
+      <Filter>リソース ファイル\VertexShader\ModelAddRenderer</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShader\vertexLightingOneSkinVS.hlsl">
+      <Filter>リソース ファイル\VertexShader\Sample</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShader\vertexLightingVS.hlsl">
+      <Filter>リソース ファイル\VertexShader\Sample</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_Blur.hlsl">
+      <Filter>リソース ファイル\PixelShader\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_DefferedRendering.hlsl">
+      <Filter>リソース ファイル\PixelShader\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_DepthWrite.hlsl">
+      <Filter>リソース ファイル\PixelShader\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_DoF.hlsl">
+      <Filter>リソース ファイル\PixelShader\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_GBuffer.hlsl">
+      <Filter>リソース ファイル\PixelShader\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_AlphaDither.hlsl">
+      <Filter>リソース ファイル\PixelShader\ModelEffect</Filter>
+    </FxCompile>
+    <FxCompile Include="PixelShader\PS_WriteDoF.hlsl">
+      <Filter>リソース ファイル\PixelShader\PostProcessing</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShader\VS_AnimObject.hlsl">
+      <Filter>リソース ファイル\VertexShader\Default</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
